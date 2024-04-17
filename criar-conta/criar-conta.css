@@ -48,6 +48,7 @@ main {
     justify-content: center;
     align-items: center;
     min-height: 90.5vh;
+    
 }
 
 .form-container h2 {
@@ -59,21 +60,28 @@ main {
 
 .form-group {
     display: flex;
+    flex-direction: row;
     margin-bottom: 15px;
+   justify-content: right;
+    width: 600px;
+    gap: 20px;
 }
 
 .form-group label {
-    font-size: 16px;
-    color: #333;
+
+    font-size: 30px;
+    color:white;
     display: block;
     margin-bottom: 5px;
+    
 }
 
 .form-group input {
-    width: 100%;
+    width: 50%;                                                                         
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    color: #419ed7;
 }
 
 .radio-group {
@@ -92,16 +100,26 @@ main {
 
 .btn-cadastrar {
     display: block;
-    width: 100%;
+    width: 188px;
+    height: 50px;
     padding: 10px;
-    background-color: #28a745;
+    background-color: #49b976;
     color: white;
     border: none;
     border-radius: 5px;
     font-size: 18px;
     cursor: pointer;
+    box-shadow: 1px 1px 10px black;
+    margin-top: 60px;
 }
 
 .btn-cadastrar:hover {
     background-color: #218838;
+}
+#form-criar-conta{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

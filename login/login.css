@@ -128,11 +128,12 @@ button{
 input[type="password"] {
     width: 300px; 
     height: 40px; 
-    
+    color: #419ed7;
 }
 input[type="email"]{
     width: 300px; 
     height: 40px; 
+    color: #419ed7;
 }
 @media screen and (min-width: 726px) {
 
