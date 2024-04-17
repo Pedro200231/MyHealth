@@ -12,7 +12,6 @@ body {
 
 header {
     background-color: #8FE1D9;
-    color: white;
     padding: 5px 0;
 }
 
@@ -57,7 +56,7 @@ header {
 }
 
 .btn-login:hover {
-    background-color: #0056b3;
+    background-color: #2484c0;
 }
 
 main {
@@ -97,12 +96,18 @@ main {
 }
 
 .btn-create-account {
+    padding: 10px;
     text-decoration: none;
     color: white;
-    background-color: #28a745;
-    padding: 15px 30px;
+    background-color: #419ED7;
+    border-radius: 5px;
+    border: 1px solid #419ED7;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .btn-create-account:hover {
-    background-color: #218838;
+    background-color: #2484c0;
 }
