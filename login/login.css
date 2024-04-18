@@ -91,6 +91,7 @@
     flex-direction: row;
     gap: 10px;
     font-size: 30px;
+    justify-content: right;
   
     padding: 10px;
 }
@@ -99,6 +100,7 @@
     flex-direction: row;
     gap: 15px;
     font-size: 30px;
+    justify-content: right;
     
     padding: 10px;
 }
@@ -124,16 +126,34 @@ button{
     cursor: pointer;
     border: 1px solid rgba(0, 0, 0, 0.384);
     box-shadow: 1px 1px 10px black;
+    margin-left: 80px;
 }
+   button:hover{
+    background-color:  #218838;
+
+
+   }
+   a{
+    font-size: 18px;
+    margin-left: 80px;
+
+   }
+
+   a:hover{
+    color: #0056b3;
+}
+
 input[type="password"] {
     width: 300px; 
     height: 40px; 
     color: #419ed7;
+    font-size: 30px;
 }
 input[type="email"]{
     width: 300px; 
     height: 40px; 
     color: #419ed7;
+    font-size: 30px;
 }
 @media screen and (min-width: 726px) {
 
@@ -193,6 +213,7 @@ input[type="email"]{
         height: 200px;
         gap: 100px;
     }
+
     button{
         background-color: #49b976;
         height: 50px;
@@ -203,10 +224,16 @@ input[type="email"]{
         cursor: pointer;
         border: 1px solid rgba(0, 0, 0, 0.384);
         box-shadow: 1px 1px 10px black;
+        margin-left: 80px;
+    }
+    button:hover{
+            background-color:  #218838;
+
+
     }
     
     input[type="password"] {
-        width: 586px; 
+        width: 580px; 
         height: 51px; 
         
     }
@@ -214,7 +241,17 @@ input[type="email"]{
         width: 580px; 
         height: 51px; 
     }
-
+   
+    a{
+            color: #419ed7;
+            text-align: center;
+            margin-left: 80px;
+            width: 100%;
+            font-size: 20px;
+    }
+    a:hover{
+        color: #0056b3;
+    }
 
 
 }
