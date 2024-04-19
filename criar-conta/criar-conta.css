@@ -51,16 +51,9 @@ main {
     
 }
 
-.form-container h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    text-align: center;
-    color: #333;
-}
-
 .form-group {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-bottom: 15px;
    justify-content: right;
     width: 600px;
@@ -68,7 +61,6 @@ main {
 }
 
 .form-group label {
-
     font-size: 30px;
     color:white;
     display: block;
@@ -116,8 +108,8 @@ main {
 .btn-cadastrar:hover {
     background-color: #218838;
 }
-#form-criar-conta{
 
+#form-criar-conta{
     display: flex;
     flex-direction: column;
     justify-content: center;
