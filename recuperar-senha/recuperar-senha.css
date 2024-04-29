@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+
+
+
+
+    * {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Averia Libre", system-ui;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+    }
+    
+    header {
+        background-color: #8FE1D9;
+        color: white;
+        padding: 5px 0;
+    }
+    
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .logo img {
+        width: 51px;
+        height: 51px;
+        margin-right: 10px;
+    }
+    
+    .logo h1 {
+        font-size: 48px;
+        font-weight: 400;
+        color: #419ED7;
+    }
+    
+    .btn-login {
+        width: 198px;
+        padding: 10px 0;
+        text-decoration: none;
+        color: white;
+        background-color: #419ED7;
+        border-radius: 5px;
+        border: 1px solid #419ED7;
+        margin-right: 20px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    
+    .btn-login:hover {
+        background-color: #0056b3;
+    }
+    main{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #add4d0;
+        width: 100vw;
+        height:  92.2vh;
+}
+#formulario{
+    font-family: "Averia Libre", system-ui;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 730px;
+    height:448px ;
+    color: white;
+   
+    
+}
+#emailBox{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 36px;
+    justify-content: right;
+    padding: 10px;
+   
+}
+
+input[type="email"]{
+    width: 586px; 
+    height: 51px; 
+    color: #419ed7;
+    font-size: 30px;
+    outline: none;
+}
+#Botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 60px;
+
+
+}
+button{
+    background-color: #49b976;
+    height: 59px;
+    width: 275px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.384);
+    box-shadow: 1px 1px 10px black;
+    
+}
+button:hover{
+    background-color:  #218838;
+
+
+   }
