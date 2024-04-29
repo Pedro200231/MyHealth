@@ -1,53 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RecuperarSenha</title>
+    <title>Recuperar Senha - MyHealth</title>
     <link rel="stylesheet" href="recuperar-senha.css">
 </head>
-<body>
 
+<body>
     <header>
         <div class="header-content">
             <div class="logo">
                 <img src="../assets/images/vacina.png" alt="Ícone de Vacina">
                 <h1>MyHealth</h1>
+            </div>
+        </div>
     </header>
     <main>
-            <div id="formulario">
-                <form action="php.http" autocomplete="on">
-
-                        <div id="emailBox">
-                            <label for="iemail ">E-mail</label>
-
-                            <input type="email" name="email" id="iemail">
-
-                        </div>
-                        
-                        <div id="Botao">
-                            <button>Redefinir senha</button>
-                        </div>
-
-                </form>
-
-
-
-
-
-
-
-            </div>
-
-
-
+        <div class="formulario">
+            <form action="php.http" autocomplete="on">
+                <div class="form-group">
+                    <label for="iemail">E-mail:</label>
+                    <input type="email" name="email" id="iemail" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Redefinir senha</button>
+                </div>
+            </form>
+        </div>
     </main>
-
-
-
-
-
-
-    
 </body>
+
 </html>

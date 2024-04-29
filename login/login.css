@@ -1,257 +1,122 @@
-@charset "UTF-8";
-
-
-
-
-
-    * {
-
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: "Averia Libre", system-ui;
-    }
-    
-    body {
-        font-family: Arial, sans-serif;
-    }
-    
-    header {
-        background-color: #8FE1D9;
-        color: white;
-        padding: 5px 0;
-    }
-    
-    .header-content {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        max-width: 100%;
-        margin: 0 auto;
-    }
-    .logo {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-    }
-    
-    .logo img {
-        width: 51px;
-        height: 51px;
-        margin-right: 10px;
-    }
-    
-    .logo h1 {
-        font-size: 48px;
-        font-weight: 400;
-        color: #419ED7;
-    }
-    
-    .btn-login {
-        width: 198px;
-        padding: 10px 0;
-        text-decoration: none;
-        color: white;
-        background-color: #419ED7;
-        border-radius: 5px;
-        border: 1px solid #419ED7;
-        margin-right: 20px;
-        text-align: center;
-        font-size: 24px;
-        font-weight: 400;
-    }
-    
-    .btn-login:hover {
-        background-color: #0056b3;
-    }
-    main{
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #add4d0;
-        width: 100vw;
-        height:  92.5vh;
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Averia Libre", system-ui;
 }
 
-#formulario{
-    font-family: "Averia Libre", system-ui;
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #8FE1D9;
+    color: white;
+    padding: 5px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo img {
+    width: 51px;
+    height: 51px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #419ED7;
+}
+
+main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 730px;
-    height:448px ;
+    background-color: #add4d0;
+    height: 90.5vh;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
     color: white;
-
+    padding: 20px;
 }
 
-    
-#emailBox{
+.form-group {
     display: flex;
-    flex-direction: row;
-    gap: 10px;
-    font-size: 30px;
-    justify-content: right;
-  
-    padding: 10px;
+    align-items: center;
+    margin-bottom: 15px;
 }
-#senhaBox{
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    font-size: 30px;
-    justify-content: right;
-    
-    padding: 10px;
-}
-#enviarBox{
 
+.form-group label {
+    font-size: 30px;
+    width: 100px;
+}
+
+.form-group input[type="password"],
+.form-group input[type="email"] {
+    width: 560px;
+    height: 51px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 36px;
+    color: #419ed7;
+    outline: none;
+}
+
+#enviarBox {
     margin-top: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    height: 200px;
     gap: 20px;
 }
 
-button{
-    background-color: #49b976;
-    height: 50px;
+button {
+    display: block;
     width: 188px;
-    border-radius: 5px;
+    height: 50px;
+    padding: 10px;
+    background-color: #49b976;
     color: white;
-    font-size: 20px;
-    cursor: pointer;
-    border: 1px solid rgba(0, 0, 0, 0.384);
-    box-shadow: 1px 1px 10px black;
-    margin-left: 80px;
-}
-   button:hover{
-    background-color:  #218838;
-
-
-   }
-   a{
+    border: none;
+    border-radius: 5px;
     font-size: 18px;
-    margin-left: 80px;
+    cursor: pointer;
+    margin-top: 60px;
 
-   }
+}
 
-   a:hover{
+button:hover {
+    background-color: #218838;
+}
+
+a {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 80px;
+    color: #419ed7;
+}
+
+a:hover {
     color: #0056b3;
-}
-
-input[type="password"] {
-    width: 300px; 
-    height: 40px; 
-    color: #419ed7;
-    font-size: 30px;
-}
-input[type="email"]{
-    width: 300px; 
-    height: 40px; 
-    color: #419ed7;
-    font-size: 30px;
-}
-@media screen and (min-width: 726px) {
-
-    
-    
-    
-    main{
-    
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #add4d0;
-            width: 100vw;
-            height:  92.3vh;
-    }
-    
-    
-    #formulario{
-        font-family: "Averia Libre", system-ui;
-        
-    
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-        width: 730px;
-        height:448px ;
-        color: white;
-    
-    }
-    
-    #emailBox{
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-        font-size: 36px;
-      
-        padding: 10px;
-    }
-    #senhaBox{
-        display: flex;
-        flex-direction: row;
-        gap: 15px;
-        font-size: 36px;
-        
-        padding: 10px;
-    }
-    #enviarBox{
-    
-        margin-top: 40px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        
-        padding: 10px;
-        height: 200px;
-        gap: 100px;
-    }
-
-    button{
-        background-color: #49b976;
-        height: 50px;
-        width: 188px;
-        border-radius: 5px;
-        color: white;
-        font-size: 20px;
-        cursor: pointer;
-        border: 1px solid rgba(0, 0, 0, 0.384);
-        box-shadow: 1px 1px 10px black;
-        margin-left: 80px;
-    }
-    button:hover{
-            background-color:  #218838;
-
-
-    }
-    
-    input[type="password"] {
-        width: 580px; 
-        height: 51px; 
-        
-    }
-    input[type="email"]{
-        width: 580px; 
-        height: 51px; 
-    }
-   
-    a{
-            color: #419ed7;
-            text-align: center;
-            margin-left: 80px;
-            width: 100%;
-            font-size: 24px;
-    }
-    a:hover{
-        color: #0056b3;
-    }
-
-
 }
