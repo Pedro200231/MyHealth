@@ -66,25 +66,30 @@ main {
     display: flex;
     min-height: 90.5vh;
     width: 100%;
+   
 }
 
 form {
     display: flex;
     flex-direction: column;
+   
     margin-bottom: 15px;
     margin-left: 300px;
     justify-content: center;
     width: 100%;
+    
 }
 
 .form-group {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+    gap: 10px;
+ 
 }
 
 .form-group label {
-    font-size: 26px;
+    font-size: 28px;
     font-weight: 400;
     color: white;
     margin-right: 10px;
@@ -98,14 +103,22 @@ form {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    font-size: 20px;
     color: #419ED7;
+    width: 299px;
+    height: 48px;
+    font-size: 28px;
 }
 
 .form-group input[type="radio"] {
     margin-right: 5px;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
+}
+#comprovanteVacina{
+
+    position: relative;
+    top: -58px;
+
 }
 
 .file-container {
@@ -113,9 +126,12 @@ form {
     flex-direction: column;
     align-items: center;
     
+    
 }
 
 .file-label {
+    display: flex;
+    align-items: center;
     cursor: pointer;
     color: #3F92C5;
     border: 1px solid #ccc;
@@ -126,6 +142,10 @@ form {
     padding-left: 15px;
     margin-bottom: 10px;
     transform: translate(0, 0);
+    width: 299px;
+    height: 48px;
+  
+
 }
 
 .file-label:hover {
@@ -136,6 +156,12 @@ form {
     margin-left: 10px;
     max-width: 200px;
     max-height: 200px;
+}
+#botao{
+    display: flex;
+    position: relative;
+    left: 280px;
+
 }
 
 .btn-cadastrar {
@@ -149,6 +175,8 @@ form {
     cursor: pointer;
     margin-left: 250px;
     margin-top: 50px;
+    width: 188px;
+    height: 50;
 }
 
 .btn-cadastrar:hover {
