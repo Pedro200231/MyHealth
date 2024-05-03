@@ -76,7 +76,7 @@ form {
     margin-left: 300px;
     
     width: 100%;
-    background-color: #0e685fa9;
+    
 }
 
 .form-group {
@@ -163,22 +163,27 @@ form {
 
 }
 #botao2{
-    background-color: #0056b3;
+   
     display: flex;
     position: relative;
    justify-content: right;
   
 
 }
-
+#imgexcluir{
+    height: 25px;
+    width: 25px;
+}
 #btnexcluir{
-    
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     padding: 10px;
     background-color:#FD7979;
     color: white;
     border: none;
     border-radius: 2px;
-    font-size: 18px;
+    font-size: 20px;
     cursor: pointer;
     width: 133px;
     height: 44px;
@@ -199,7 +204,7 @@ form {
     font-size: 18px;
     cursor: pointer;
     margin-left: 250px;
-    margin-top: 50px;
+    margin-top: 100px;
     width: 188px;
     height: 50;
 }
