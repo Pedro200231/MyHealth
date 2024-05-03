@@ -276,6 +276,9 @@ form {
     border-radius: 5px;
     font-size: 36px;
 }
+#botao-sim:hover{
+    background-color: #f72f2f;
+}
 #botao-cancelar{
     width: 216px ;
     height: 71px;
@@ -287,5 +290,9 @@ form {
     border-radius: 5px;
     font-size: 36px;
 
+
+}
+#botao-cancelar:hover{
+    background-color: #0056b3;
 
 }
