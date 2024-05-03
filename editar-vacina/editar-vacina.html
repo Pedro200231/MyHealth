@@ -26,11 +26,28 @@
     </header>
 
     <main>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Tem certeza que deseja remover essa vacina?</p>
+
+                <div id="modal-botao">
+                    <button id="botao-sim">Sim</button>
+                    <button id="botao-cancelar">Cancelar</button>
+                </div>
+            
+            </div>
+        </div>
+
+
+           
 
         <form id="form-nova-vacina">
-            <div id="botao2">
+             <div id="botao2">
                 <button type="submit" id="btnexcluir"><img src="lixo.png" alt="lixo" id="imgexcluir"> Excluir</button>
             </div>
+
+            
             <div class="form-group">
                 <label for="dataVacina">Data de Vacinação</label>
                 <input type="date" id="dataVacina" name="dataVacina" required>
@@ -82,7 +99,7 @@
         </form>
     </main>
 
-    <script src="nova-vacina.js"></script>
+    <script src="editar-vacina.js"></script>
 </body>
 
 </html>
