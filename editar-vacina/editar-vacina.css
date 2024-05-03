@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Averia Libre", system-ui;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #add4d0;
+}
+
+header {
+    background-color: #8FE1D9;
+    color: white;
+    padding: 5px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #419ED7;
+}
+
+.header-buttons {
+    display: flex;
+}
+
+.btn-header {
+    margin-right: 15px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #419ED7;
+    border-radius: 5px;
+    border: 1px solid #419ED7;
+    font-size: 22px;
+
+}
+
+.btn-header:hover {
+    background-color: #0056b3;
+}
+
+main {
+    display: flex;
+    min-height: 90.5vh;
+    width: 100%;
+   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-left: 300px;
+    
+    width: 100%;
+    background-color: #0e685fa9;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+ 
+}
+
+.form-group label {
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+    margin-right: 10px;
+    width: 300px;
+    text-align: right;
+}
+
+
+.form-group input[type="date"],
+.form-group input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #419ED7;
+    width: 299px;
+    height: 48px;
+    font-size: 28px;
+}
+
+.form-group input[type="radio"] {
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+}
+#comprovanteVacina{
+
+    position: relative;
+    top: -58px;
+
+}
+
+.file-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.file-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #3F92C5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #3F92C5;
+    text-align: left!important;
+    padding: 10px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    transform: translate(0, 0);
+    width: 299px;
+    height: 48px;
+  
+
+}
+
+.file-label:hover {
+    background-color: #0056b3;
+}
+
+#preview {
+    margin-left: 10px;
+    max-width: 200px;
+    max-height: 200px;
+}
+#botao{
+    display: flex;
+    position: relative;
+    left: 280px;
+
+}
+#botao2{
+    background-color: #0056b3;
+    display: flex;
+    position: relative;
+   justify-content: right;
+  
+
+}
+
+#btnexcluir{
+    
+    padding: 10px;
+    background-color:#FD7979;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 133px;
+    height: 44px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#btnexcluir:hover{
+    background-color: #f72f2f;
+}
+.btn-cadastrar {
+    width: 200px;
+    padding: 10px;
+    background-color: #49B976;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 250px;
+    margin-top: 50px;
+    width: 188px;
+    height: 50;
+}
+
+.btn-cadastrar:hover {
+    background-color: #218838;
+}
